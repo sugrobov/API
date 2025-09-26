@@ -4,7 +4,6 @@
 
 A simple REST API built with Node.js and Express framework.
 
-markdown
 ## Project Structure
 
 ```
@@ -52,3 +51,4 @@ API Endpoints
 - GET / - Returns a welcome message: "Node.js and Express REST API"
 
 - GET /users - Returns a list of users
+
