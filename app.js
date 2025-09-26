@@ -6,6 +6,7 @@ const routes = require('./routes');
 const port = 3002;
 const app = express();
 
+app.use(express.static('public'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
