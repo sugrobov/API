@@ -47,8 +47,24 @@ Dependencies
 Available Scripts
 - npm start - Start the server
 
-API Endpoints
-- GET / - Returns a welcome message: "Node.js and Express REST API"
+## API Endpoints
 
-- GET /users - Returns a list of users
+### Express API Server (Port 3002)
+
+| Method   | Endpoint      | Description |
+|----------|---------------|-------------|
+| `GET`    | `/`           | Returns a welcome message |
+| `GET`    | `/users`      | Returns a list of users |
+| `GET`    | `/users/:id`  | Get user by ID |
+| `POST`   | `/users`      | Create a new user |
+| `PUT`    | `/users/:id`  | Update user |
+| `DELETE` | `/users/:id`  | Delete user |
+
+
+Basic HTTP Server
+
+The project also includes a basic HTTP server example in hello-server.js that runs on port 3001:
+
+node hello-server.js
+
 
