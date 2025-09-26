@@ -28,10 +28,10 @@ const router = app => {
         res.send(users);
     });
 
-    // GET /users/:id - Get user by ID
+    // GET /users/:id - 
     app.get('/users/:id', (req, res) => {
         try {
-            const userId = parseInt(req.params.id);
+            const userId = parseInGet user by IDt(req.params.id);
 
             // валидность ID 
             if (isNaN(userId)) {
