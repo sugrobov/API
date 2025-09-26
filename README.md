@@ -52,3 +52,9 @@ API Endpoints
 
 - GET /users - Returns a list of users
 
+Basic HTTP Server
+
+The project also includes a basic HTTP server example in hello-server.js that runs on port 3001:
+
+node hello-server.js
+
